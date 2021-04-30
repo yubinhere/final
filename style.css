@@ -1,32 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 {
-  margin: 0;
+   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
 
   }
 
-  h1, {
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-  }
+
 body {
 
-  margin: auto;
   display: grid;
  justify-content: end;
  align-content: end;
  min-height: 100vh;
- font-family: 'Oswald', sans-serif;
+
 
 }
 
 a:link {
   text-decoration: none;
-
-  color: white ;
+;
+  color: white;
 }
 
 a:visited {
@@ -62,50 +57,118 @@ a:hover {
   footer
 {
   position: relative;
-
-  height: 30px;
-  padding: 50px 100px;
+font-family: 'Oswald', sans-serif;
+  height: auto;
+  padding: 50px 120px;
   background: #f58c4f;
-  left: 0;
-  margin-left: 0;
-  width: 100%;
-  min-width: 980px;
+      width: 96%;
+
+
 }
 
 footer .container{
 
-  width: full;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  margin: auto;
+
 }
 
 footer .container .sec h2{
-  position: relative;
+
   color: #fff;
   font-weight: 200px;
-  margin-bottom: 15px;
-  }
-
-  .social{
-    margin-top: 20px;
-    display:grid;
-
-  }
-  .social li {
-    list-style:none;
-    color: white;
+  margin-bottom: 30px;
 
   }
 
 
-    .social li a{
-      display:inline-block;
-      width:48px;
+.social{
+  margin-top: -30px;
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  margin-left: 350px;
+
+}
+
+
+.social li {
+    list-style: none;
+
+  }
+
+  .social li a
+    {
+
+display: inline-block;
+      width: 48px;
       height: 48px;
-      background: #000
-      display: grid'
-      align-content: center;
+       background: #54638c;
+       align-content: center;
+  display: grid;
       justify-content: center;
+      text-decoration: none;
 
   }
+  .social li a .fa{
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .social li a:hover{
+    background-color: b2b6bf;
+  }
+
+
+
+
+
+
+button {
+  background-color: #54638c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+  margin-left: 90px;
+}
+
+button:hover {
+  background-color: #798cb5;
+}
+
+
+.copyrighttext{
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+
+  padding: 8px 100px;
+  text-align: center;
+  background: #f46721;
+  width: 100%;
+  color: #fff;
+}
+
+
+  @media (max-width: 991px){
+
+    footer{
+      padding: 40px;
+
+    }
+
+    footer .container{
+      grid-template-columns: repeat (2,1fr);
+          }
+    }
+
+
+
+  
