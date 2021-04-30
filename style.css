@@ -1,3 +1,53 @@
+.profile{
+  display: flex;
+  flex-direction: raw;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 100px 100px;
+
+}
+
+.profilepic{
+  width: 290px;
+
+
+}
+.introduction h2{
+
+font-family: 'Abril Fatface', cursive;
+font-size: 25px;
+margin-left: 40px;
+
+
+}
+
+.navigator{
+  text-align: center;
+
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-left: 20px;
+}
+.introduction p{
+  font-family: 'Mandali', sans-serif;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+ .introduction ul{
+   font-family: 'Mandali', sans-serif;
+   margin-left: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
 
 {
    margin: 0;
@@ -35,18 +85,21 @@ a:hover {
 }
 
 
+.gallery {
+  justify-content: center;
+  margin: 100px 100px;
+}
 
-
-.full-img {
+.bigportfolio {
   position: relative;
   display: block;
   width: 500px;
   height: 500px;
 }
 
-.thumb-bar img {
+.smallbar img {
   display: block;
-  width: 19%;
+  width: 17%;
   float: left;
   cursor: pointer;
 }
@@ -61,7 +114,7 @@ font-family: 'Oswald', sans-serif;
   height: auto;
   padding: 50px 120px;
   background: #f58c4f;
-      width: 96%;
+      width: 100%;
 
 
 }
@@ -80,7 +133,7 @@ footer .container .sec h2{
 
   color: #fff;
   font-weight: 200px;
-  margin-bottom: 30px;
+
 
   }
 
@@ -89,7 +142,8 @@ footer .container .sec h2{
   margin-top: -30px;
   display: grid;
   grid-template-columns: repeat(3, 50px);
-  margin-left: 350px;
+  margin-left: 100px 100px;
+  justify-content: center;
 
 }
 
@@ -105,16 +159,17 @@ footer .container .sec h2{
 display: inline-block;
       width: 48px;
       height: 48px;
-       background: #54638c;
+
        align-content: center;
   display: grid;
-      justify-content: center;
+
       text-decoration: none;
+
 
   }
   .social li a .fa{
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .social li a:hover{
@@ -137,7 +192,8 @@ button {
   font-size: 16px;
   cursor: pointer;
   float: left;
-  margin-left: 90px;
+  margin: 100px 100px;
+  justify-content: center;
 }
 
 button:hover {
