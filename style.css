@@ -1,0 +1,109 @@
+h1, {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+{
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+
+  }
+
+
+body {
+
+  margin: auto;
+  display: grid;
+ justify-content: end;
+ align-content: end;
+ min-height: 100vh;
+ font-family: 'Oswald', sans-serif;
+
+}
+
+a:link {
+  text-decoration: none;
+
+  color: white ;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+    color: white;
+}
+
+
+
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 500px;
+  height: 500px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 19%;
+  float: left;
+  cursor: pointer;
+}
+
+
+
+
+  footer
+{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: #f58c4f;
+
+}
+
+footer .container{
+
+  width: full;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+footer .container .sec h2{
+  position: relative;
+  color: #fff;
+  font-weight: 200px;
+  margin-bottom: 15px;
+  }
+
+  .social{
+    margin-top: 20px;
+    display:grid;
+
+  }
+  .social li {
+    list-style:none;
+    color: white;
+
+  }
+
+
+    .social li a{
+      display:inline-block;
+      width:48px;
+      height: 48px;
+      background: #000
+      display: grid'
+      align-content: center;
+      justify-content: center;
+
+  }
