@@ -6,6 +6,8 @@
    <title>Image gallery</title>
 
    <link rel="stylesheet" href="style.css" type="text.css">
+
+
    <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -73,12 +75,17 @@ GALLERY
 
 <div class="bigportfolio">
 
-<img class="displayed-img" src="https://static.wixstatic.com/media/14ce31_518f73bf5eb847ab829b626b84fd9f20~mv2.png">
+ <img class="displayed-img" src="https://static.wixstatic.com/media/14ce31_518f73bf5eb847ab829b626b84fd9f20~mv2.png">
+<div class ="overlay">
+
+</div>
+
+
 
 
 </div>
 
-<div class="smallbar">
+<div class="thumb-bar">
 <img class="thumb1-img" src="https://static.wixstatic.com/media/14ce31_4f708c31fe81459b80563020aae7ed8a~mv2.png">
 
 <img class="thumb2-img" src="https://static.wixstatic.com/media/14ce31_3f2002d500654ccdba403d01fd80d054~mv2.png">
@@ -88,18 +95,29 @@ GALLERY
 <img class="thumb4-img" src="https://static.wixstatic.com/media/14ce31_4ca2c951a371423dbef4c44898c004f4~mv2.png">
 
 
+
+
+
+
+<script>
+    let rotation = 0;
+    function rotateImg() {
+      rotation += 45;
+      if (rotation === 360) {
+        rotation = 0;
+      }
+      document.querySelector("#img").style.transform = `rotate(${rotation}deg)`;
+    }
+</script>
+
+
+
+
+
+
 </div>
 
  </div>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -152,4 +170,5 @@ GALLERY
 
 </div>
  </body>
+ <script src="main.js"></script>
 </html>

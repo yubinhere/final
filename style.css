@@ -43,22 +43,36 @@ color: #f58c4f;
 
 font-family: 'Abril Fatface', cursive;
 font-size: 25px;
-margin-left: 40px;
+margin-left: 20px;
 color: #f58c4f;
   text-align: center;
 
     object-fit: cover;
-    object-position: 50% 50%;
+    object-position: 40% 50%;
 
+}
+
+.smallbar button {
+  justify-content: center;
+
+
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-top: 50px;
+    margin-left: 120px;
 }
 
 
 
 
-
-
-
-
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  background-color: rgba(0, 0, 0, 0);
+  }
 
 {
    margin: 0;
@@ -67,7 +81,21 @@ color: #f58c4f;
   font-family: 'Oswald', sans-serif;
 
   }
+.dark {
+   background-color: #54638c;
+  border: none;
+  color: white;
+  padding: 5px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
 
+align-content: center;
+  justify-content: center;
+  margin: 0px;
+}
 
 body {
 
@@ -101,14 +129,15 @@ a:hover {
    width: 500px;
     margin: 280px;
     }
-.bigportfolio img {
+
+.displayed-img img {
   position: relative;
-  display: block;
+
 
   height: 500px;
 }
 
-.smallbar img {
+.thumb-bar img {
   display: block;
   width: 25%;
   float: left;
@@ -195,8 +224,8 @@ display: inline-block;
 
 
 
-button {
-  background-color: #54638c; /* Green */
+.btn-group button {
+  background-color: #54638c;
   border: none;
   color: white;
   padding: 5px 100px;
@@ -241,7 +270,5 @@ button:hover {
       grid-template-columns: repeat (2,1fr);
           }
     }
-
-
 
   
