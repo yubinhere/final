@@ -67,10 +67,9 @@ color: #f58c4f;
 
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 640px;
-  height: 480px;
+
+  width: 500px;
+  height: 500px;
   background-color: rgba(0, 0, 0, 0);
   }
 
@@ -81,21 +80,33 @@ color: #f58c4f;
   font-family: 'Oswald', sans-serif;
 
   }
-.dark {
-   background-color: #54638c;
+
+
+
+.overlay button {
+  background-color: #54638c;
   border: none;
   color: white;
-  padding: 5px 100px;
+left: 120px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  position: absolute;
   font-size: 16px;
-  cursor: pointer;
-
-align-content: center;
   justify-content: center;
-  margin: 0px;
+
+    margin: 0px;
+
+margin-top: 150px;
+
+
+  padding: 8px 100px;
 }
+
+
+
+
+
+
+
 
 body {
 
@@ -270,5 +281,4 @@ button:hover {
       grid-template-columns: repeat (2,1fr);
           }
     }
-
   
